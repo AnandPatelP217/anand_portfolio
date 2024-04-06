@@ -1,0 +1,77 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 100%;
+   margin: auto;
+   font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+   margin-top: 7rem;
+  }
+  
+.profilecontainer{
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .profilecontainer img{
+    background-color: #ffffff;
+    border-radius: 20%;
+    padding: 20px;
+    max-width: 600px;
+    width: 30%;
+    display: block;
+     margin: 0 auto; 
+    
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+  }
+  
+  .profilebutton {
+    background-color: #006b20;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .profilebutton:hover {
+    background-color: #008518;
+  }
+  
+  .technology-section {
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Horizontally center the items */
+    align-items: center; /* Vertically center the items */
+  }
+  
+  
+  .remove-tech,.add-tech {
+    background-color: #137000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 10%;
+margin-left: 2px;
+  
+  }

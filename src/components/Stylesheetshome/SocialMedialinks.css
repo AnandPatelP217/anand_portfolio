@@ -1,0 +1,30 @@
+/* Default styles */
+.containerrring{
+    background-color: rgb(244, 245, 246);
+    padding: 40px;
+}
+.social-media-links {
+    text-align: center;
+  }
+  
+  .social-media-links a {
+    margin: 0 10px;
+  }
+  
+  .social-media-links a svg {
+    font-size: 2em;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .social-media-links a svg {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .social-media-links a svg {
+      font-size: 1.2em;
+    }
+  }
+  

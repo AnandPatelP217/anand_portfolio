@@ -1,0 +1,49 @@
+/* LecturePost.css */
+.lecture-post {
+    max-width: 600px;
+    margin: 22px auto;
+    margin-top:4rem;
+    padding: 20px;
+    color: green;
+  }
+  
+  .lecture-post h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .lecture-post form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .lecture-post input[type="text"],
+  .lecture-post textarea,
+  .lecture-post input[type="date"],
+  .lecture-post input[type="time"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .lecture-post label {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .lecture-post button {
+    padding: 10px 20px;
+    background-color:  rgb(5, 104, 13);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all;
+  }
+  
+  .lecture-post button:hover {
+    background-color:  rgb(4, 72, 4);
+    transform: scale(1.05);
+  }
+  

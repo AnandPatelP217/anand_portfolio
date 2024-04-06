@@ -1,0 +1,50 @@
+.resume-section {
+    padding: 20px;
+    margin: 0px;
+    margin-top: 4rem;
+  }
+  
+  .resume {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .resume .react-pdf__Document {
+    width: 100%;
+    max-width: 800px; /* Adjust max-width based on your design */
+  }
+  
+  .resume .react-pdf__Page {
+    margin: auto;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .resume .react-pdf__Page {
+      width: 80%; /* Adjust the width for smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .resume .react-pdf__Page {
+      width: 100%; /* Make the page take up full width on smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .resume .react-pdf__Page {
+      width: 100%; /* Make the page take up full width on even smaller screens */
+    }
+  }
+  
+  /* Hide text content of the PDF */
+  .resume .react-pdf__Page__textContent {
+    display: none;
+  }
+  
+  /* Adjust button styles for responsiveness */
+  .resume-section .btn-primary {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px auto;
+  }
+  

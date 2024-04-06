@@ -1,0 +1,60 @@
+/* PostSection.css */
+.post-section {
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 20px;
+  }
+  
+  .post-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: green;
+  }
+  
+  .post-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-section input[type="text"],
+  .post-section textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .post-section .skills-section {
+    margin-bottom: 20px;
+  }
+  
+  .post-section .skills-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .post-section .skill-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post-section .skill-item input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .post-section button {
+    padding: 10px 20px;
+    background-color:  rgb(6, 106, 14);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all;
+  }
+  
+  .post-section button:hover {
+    background-color: rgb(6, 76, 21);
+    transform: scale(1.05);
+  }
+  

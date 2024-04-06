@@ -1,0 +1,54 @@
+/* Styles for larger screens */
+.two-column-container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    background-color: rgb(244, 245, 246);
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  
+  }
+  .fontcolorchange{
+    font-weight: bolder;
+    color: green;
+    display: inline; /* or inline-block */}
+  .changecolor2{
+    font-size: 3rem;
+  }
+  .text-column2 {
+  
+  }
+  .text-column2 p{
+ font-size: 20px;
+ margin-left: 0rem;
+  }
+
+
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .two-column-container2 {
+      flex-direction: column;
+    }
+  
+    .text-column2{
+      padding: 0;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    
+  }
+  
+  /* Adjustments for extra small screens */
+  @media (max-width: 576px) {
+    .text-column2 h2 {
+      font-size: 1.5em;
+    }
+  
+    .text-column2 p {
+      font-size: 0.9em;
+    }
+  }
+  

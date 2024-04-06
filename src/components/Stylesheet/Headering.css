@@ -1,0 +1,63 @@
+.SecondHeader {
+    width: 100%;
+    margin: 0px;
+    margin-top: 7rem;
+  }
+  
+  .imagecontainer {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .imagecontainer img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add some border radius for a rounded corner effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    transition: transform 0.3s ease; /* Add transition for smooth image change */
+  }
+  
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+    padding: 8px 16px;
+    background-color: #007bff; /* Blue color for buttons */
+    color: #fff; /* White color for text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  .nextprev{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+
+  }
+
+  .nextprev button{
+    margin: 0 10px;
+    padding: 8px 16px;
+    background-color: #137a06; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+
+  .nextprev button:hover{
+    color: #1eff00;
+    background-color: rgb(0, 63, 4);
+      }

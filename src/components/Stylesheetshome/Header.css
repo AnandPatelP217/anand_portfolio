@@ -1,0 +1,60 @@
+/* Styles for larger screens */
+.two-column-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+.image-center{
+  aspect-ratio: 3/2;
+ 
+}
+.changecolor{
+  font-size: 3rem;
+  color: green;
+}
+.text-column {
+  flex: 1;
+  padding-right: 20px;
+  margin-top: 6rem;
+  margin-left: 1rem;
+}
+
+.image-column {
+  flex: 1;
+  
+  margin-top: 4rem;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .two-column-container {
+    flex-direction: column;
+  }
+
+  .text-column{
+    padding: 0;
+    text-align: center;
+    margin-top: 7rem;
+    
+  }
+  .image-column {
+    padding: 0;
+    text-align: center;
+   
+  }
+}
+
+/* Adjustments for extra small screens */
+@media (max-width: 576px) {
+  .text-column h2 {
+    font-size: 1.5em;
+  }
+
+  .text-column p {
+    font-size: 0.9em;
+  }
+}

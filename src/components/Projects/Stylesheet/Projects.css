@@ -1,0 +1,38 @@
+.project-section {
+    background-color: #f8f9fa; /* Change this to your desired background color */
+    padding: 50px 0; /* Adjust the top and bottom padding as needed */
+    margin-top: 4rem;
+    
+  }
+  .project-card-view {
+    transition: transform 0.3s ease;
+    margin: 20px;
+  }
+  
+  .project-card-view:hover {
+    transform: scale(1.05); /* Increase the size by 5% on hover */
+  }
+  
+  .project-heading {
+    color: #6c757d; /* Change this to your desired heading color */
+    text-align: center;
+  }
+  
+  .project-card {
+    margin-bottom: 20px;
+   
+  }
+  .project-card:hover {
+    
+   
+  }
+  
+  @media (min-width: 768px) {
+    .project-card {
+      font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+      margin-bottom: 0;
+    }
+  }
+  
